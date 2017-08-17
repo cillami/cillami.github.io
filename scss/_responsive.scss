@@ -1,0 +1,85 @@
+
+/*@media screen and (min-width: 543px) and (max-width: 800px) {
+  .flex-item1{
+	background-color: yellow;
+}
+}*/
+
+@media screen and (min-width: 543px) {
+.frontpageImgSmall{
+display:none;
+}
+
+.frontpageImg{
+	display:block;
+	padding-left:10%;
+	width:100%; 
+
+}
+.mediaWrap{
+	width:60%; 
+}
+ 
+.socialMedia{
+	width:8%;
+	margin:.5rem;
+}
+.projectBox{
+	width:80%;
+}
+
+
+}
+
+@media screen and (min-width: 825px) and (max-width: 900px){
+.flex-itemText{
+	background-color:white;
+	margin:0 0 1rem 0;
+}
+.flex-item1{
+	margin-bottom:1rem;
+}
+.projectBox{
+	width:80%;
+}
+}
+/* Mellan/Stor */ 
+@media screen and (min-width: 900px) {
+
+.frontpageImg{
+/*	padding-left:15%;*/
+	width:100%;
+}
+
+.header{
+	min-width:60%;
+}
+.intro{
+	font-size: 1.5rem;
+}
+.flex-item1{
+	margin-bottom:1rem;
+}
+
+.flex-itemText{
+	background-color:white;
+	margin:0 0 1rem 0;
+	padding-top: 0;
+}
+.nav{
+	min-width:20%;
+}
+.projectBox{
+	width:62%;
+}
+.mediaWrap{
+	width:60%; 
+
+}
+.socialMedia{
+	width:35px;
+	margin:.5rem;
+}
+
+}
+
