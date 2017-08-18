@@ -24,20 +24,20 @@
 
 	#LEAF2{
 	transform-origin:right top;
-	transition: transform 4s;
+	transition: transform 4s; 
+	
 	}
-
 	#LEAF2:hover{
-	transform:rotate(500deg);
-
+	transform:rotate(500deg)
 	}
-		#LEAF1{
+
+	#LEAF1{
 	transform-origin:right top;
 	transition: transform 3s;
 	}
 
 	#LEAF1:hover{
-	transform:rotate(500deg);
+	transform:rotate(500deg)
 
 	}
 </style>
@@ -403,7 +403,7 @@
 		<path class="st4" d="M641,138.9c132.7,284.1,62.8,134.3,62.8,134.3L641,138.9z"/>
 	</g>
 </g>
-<g id="LEAF2">
+<g id="LEAF2" class="hej">
 	<g>
 		<path class="st1" d="M693.7,431c33.7-165,184.1-136.6,184.1-136.6S858.2,454.7,693.7,431L693.7,431L693.7,431z"/>
 		<path class="st5" d="M698.1,428.8c31.5-153.5,175.1-131.1,175.1-131.1S851.7,445.9,698.1,428.8L698.1,428.8L698.1,428.8z"/>
