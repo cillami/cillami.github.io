@@ -172,6 +172,8 @@ p {
 }*/
 /*PROJEKT*/
 .project-box {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   width: 100%; }
 
