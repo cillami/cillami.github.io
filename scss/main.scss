@@ -158,7 +158,6 @@ text-decoration: none;
 	text-decoration: none;
 }
 
-
 .underline{
 	text-decoration: underline;
 }
@@ -170,7 +169,7 @@ text-decoration: none;
  }
 
 .intro{
-	margin:5%;
+	margin:1rem;
 	padding:0;
 	font-size:1.2rem;
 	font-weight:300;
@@ -234,6 +233,59 @@ p{
 .contain{
 	object-fit: cover;
 }
+/*.contain2:hover{
+	object-fit: contain;
+}
+
+*/
+/*.contain2 span {
+  visibility: hidden;
+}
+
+.contain2:hover span {
+  visibility: visible;
+}
+
+.contain2 span:not(:hover) {
+  visiblity: hidden;
+  transition: visibility 5s;
+}
+*/
+
+.box-shadow-3d{
+    box-shadow: 1px 1px 0px black,
+                2px 2px 0px black,
+                3px 3px 0px black,
+                4px 4px 0px black,
+                5px 5px 0px black,
+                6px 6px 0px black,
+                7px 7px 0px black,
+                8px 8px 0px black,
+                9px 9px 0px black;
+
+}
+.knapp{
+	background-color: white;
+	text-decoration: none;
+	margin-bottom: .5rem;
+	padding: .2rem;
+	border:2px solid black;
+	width: 10rem;
+	height:2.5rem;
+}
+.knapp a{
+text-decoration: none;
+}
+.knapp:hover{
+	background-color: #00ffff;
+}
+.knapp:active{
+	transform: rotate(10deg);
+
+}
+
+
+
 
 .flex-item{
     width: 300px;
