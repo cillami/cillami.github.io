@@ -273,6 +273,7 @@ p {
   height: 2.5rem; }
 
 .knapp a {
+  color: black;
   text-decoration: none; }
 
 .knapp:hover {
