@@ -279,14 +279,14 @@ p{
 }
 .knapp:hover{
 	background-color: #00ffff;
+	color: black;
+/*	background-color: #7FFFFF;*/
+/*	background-color:#FF99FF;*/
 }
 .knapp:active{
+	color: black;
 	transform: rotate(10deg);
-
 }
-
-
-
 
 .flex-item{
     width: 300px;
