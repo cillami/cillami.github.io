@@ -24,25 +24,30 @@
 	fill:yellow;
 	}
 
+	.box{
+	width: 500px;
+	height:500px;
+	}
+
 	#LEAF1{
 	transform-origin:right top;
 	-webkit-transform-origin: right top;
 	-o-transform-origin: right top;
 	-ms-transform-origin: right top;
-	-moz-transform-origin: right top;
+	-moz-transform-origin: 50% 50%;
 	transition: transform 4s;
 	-webkit-transition: transform 4s;
 	-o-transition: transform 4s;
 	-ms-transition: transform 4s;
 	-moz-transition: transform 4s;
 	}
-
+ 
 	#LEAF2{
 	transform-origin:right top;
 	-webkit-transform-origin: right top;
 	-o-transform-origin: right top;
 	-ms-transform-origin: right top;
-	-moz-transform-origin: right top;
+	-moz-transform-origin: 50% 50%;
 	transition: transform 4s; 
 	-webkit-transition: transform 4s;
 	-o-transition: transform 4s;
@@ -50,21 +55,23 @@
 	-moz-transition: transform 4s;
 	}
  
-	#LEAF1:hover{
+	#LEAF1:hover {
 	transform:rotate(500deg);
 	-webkit-transform:rotate(500deg);
 	-o-transform:rotate(500deg);
 	-ms-transform:rotate(500deg);
-	-moz-transform:rotate(500deg);
-	}
+	-moz-transform:rotate(-360deg);
+
+
+	} 
 	
  
-		#LEAF2:hover{
+	#LEAF2:hover {
 	transform:rotate(500deg);
 	-webkit-transform:rotate(500deg);
 	-o-transform:rotate(500deg);
 	-ms-transform:rotate(500deg);
-	-moz-transform:rotate(500deg);
+	-moz-transform:rotate(360deg);
 	}
 
 
@@ -397,7 +404,7 @@
 		</g>
 	</g></a>
 </g>
-<g id="LEAF1">
+<g class="box"><g id="LEAF1">
 	<g>
 		<path class="st1" d="M726,321.3c-137.8-57.7-87.3-186.9-87.3-186.9S773.5,181.8,726,321.3L726,321.3L726,321.3z"/>
 		<path class="st2" d="M723.3,315.8C595,260.3,640.7,139,640.7,139S766.2,184.8,723.3,315.8L723.3,315.8L723.3,315.8z"/>
@@ -432,7 +439,8 @@
 		<path class="st4" d="M641,138.9c132.7,284.1,62.8,134.3,62.8,134.3L641,138.9z"/>
 	</g>
 </g>
-<g id="LEAF2" class="hej">
+</g>
+<g class="box"><g id="LEAF2">
 	<g>
 		<path class="st1" d="M693.7,431c33.7-165,184.1-136.6,184.1-136.6S858.2,454.7,693.7,431L693.7,431L693.7,431z"/>
 		<path class="st5" d="M698.1,428.8c31.5-153.5,175.1-131.1,175.1-131.1S851.7,445.9,698.1,428.8L698.1,428.8L698.1,428.8z"/>
@@ -468,6 +476,7 @@
 		</g>
 		<path class="st5" d="M873.4,298c-281.3,210.6-133,99.6-133,99.6L873.4,298z"/>
 	</g>
+</g>
 </g>
 <g id="FULL_x5F_IMAGE">
 	<g>
