@@ -141,7 +141,7 @@ ul li a {
   text-align: left;
   min-width: 100%; }
   .firstpage-nav h1 {
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
 
 .link-background h1 {
   background-color: white; }
@@ -279,7 +279,10 @@ p {
     width: 80%; }
 
   .skew-bottom {
-    display: none; } }
+    display: none; }
+
+  .firstpage-nav h1 {
+    font-size: 1.7rem; } }
 @media screen and (min-width: 800px) {
   .frontpage-img-small {
     display: none; }
